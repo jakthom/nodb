@@ -1,5 +1,5 @@
 # NoDB
-A high-performance, in-memory, git-backed OLAP database (of nothing).
+A high-performance, in-memory, file-backed OLAP database (of nothing).
 
 Because the best database infrastructure is no database infrastructure.
 
