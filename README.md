@@ -78,7 +78,7 @@ Elapsed 1.091 seconds.
 
 # NoDB Roadmap
 
-* NoDB will soon experimentally support [Vortex](https://github.com/spiraldb/vortex) as a file format, for high-performance random-access reads and scans of nothing.
+* NoDB will have full support of [Vortex](https://github.com/spiraldb/vortex) as a file format, for high-performance random-access reads and scans of nothing.
 
 * NoDB will experimentally support NoLLM, NoML, NoAI in the very near future.
 
