@@ -33,7 +33,7 @@ D from duckdb_views() select database_name, schema_name, view_name where not int
 └───────────────┴─────────────┴───────────┘
 
 
-D select * from nothing;
+D from nothing;
 ┌────────┐
 │ niets  │
 │ int64  │
@@ -42,16 +42,16 @@ D select * from nothing;
 └────────┘
 
 
-D select count(*) from nichts;
-┌──────────────┐
-│ count_star() │
-│    int64     │
-├──────────────┤
-│            0 │
-└──────────────┘
+D from nichts select count(*) as notmuch;
+┌─────────┐
+│ notmuch │
+│  int64  │
+├─────────┤
+│       0 │
+└─────────┘
 
 
-D select * from nichts;
+D from nichts;
 ┌────────┐
 │ niets  │
 │ int64  │
