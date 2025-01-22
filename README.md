@@ -23,6 +23,15 @@ D show tables;
 └─────────┘
 
 
+D from duckdb_views() select database_name, schema_name, view_name where not internal;
+┌───────────────┬─────────────┬───────────┐
+│ database_name │ schema_name │ view_name │
+│    varchar    │   varchar   │  varchar  │
+├───────────────┼─────────────┼───────────┤
+│ nodb          │ main        │ nichts    │
+└───────────────┴─────────────┴───────────┘
+
+
 D select * from nothing;
 ┌────────┐
 │ niets  │
