@@ -59,3 +59,18 @@ D select * from nichts;
 │ 0 rows │
 └────────┘
 ```
+
+
+# Cross-Engine Support with [DataFusion](https://datafusion.apache.org/)
+
+
+```
+DataFusion CLI v44.0.0
+> select * from 'https://github.com/jakthom/nodb/raw/refs/heads/main/nada.parquet';
++-------+
+| niets |
++-------+
++-------+
+0 row(s) fetched.
+Elapsed 1.091 seconds.
+```
