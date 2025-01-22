@@ -10,7 +10,9 @@ Because the best database infrastructure is no database infrastructure.
 D attach 'https://github.com/jakthom/nodb/raw/refs/heads/main/catalog' as nodb;
 100% ▕████████████████████████████████████████████████████████████▏
 
+
 D use nodb;
+
 
 D show tables;
 ┌─────────┐
@@ -20,11 +22,30 @@ D show tables;
 │ nothing │
 └─────────┘
 
-D select count(*) from nothing;
+
+D select * from nothing;
+┌────────┐
+│ niets  │
+│ int64  │
+├────────┤
+│ 0 rows │
+└────────┘
+
+
+D select count(*) from nichts;
 ┌──────────────┐
 │ count_star() │
 │    int64     │
 ├──────────────┤
 │            0 │
 └──────────────┘
+
+
+D select * from nichts;
+┌────────┐
+│ niets  │
+│ int64  │
+├────────┤
+│ 0 rows │
+└────────┘
 ```
