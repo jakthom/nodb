@@ -65,14 +65,34 @@ D from nichts;
 
 
 ```
-DataFusion CLI v44.0.0
-> select * from 'https://github.com/jakthom/nodb/raw/refs/heads/main/nada.parquet';
-+-------+
-| niets |
-+-------+
-+-------+
+-DataFusion CLI v44.0.0
+
+> create external table rien stored as parquet location 'https://github.com/jakthom/nodb/raw/refs/heads/main/nada.parquet';
 0 row(s) fetched.
-Elapsed 1.091 seconds.
+Elapsed 0.638 seconds.
+
+> show tables;
++---------------+--------------------+-------------+------------+
+| table_catalog | table_schema       | table_name  | table_type |
++---------------+--------------------+-------------+------------+
+| datafusion    | public             | rien        | BASE TABLE |
+| datafusion    | information_schema | tables      | VIEW       |
+| datafusion    | information_schema | views       | VIEW       |
+| datafusion    | information_schema | columns     | VIEW       |
+| datafusion    | information_schema | df_settings | VIEW       |
+| datafusion    | information_schema | schemata    | VIEW       |
+| datafusion    | information_schema | routines    | VIEW       |
+| datafusion    | information_schema | parameters  | VIEW       |
++---------------+--------------------+-------------+------------+
+
+> select count(*) as nil from rien;
++-----+
+| nil |
++-----+
+| 0   |
++-----+
+1 row(s) fetched.
+Elapsed 0.135 seconds.
 ```
 
 
