@@ -74,3 +74,10 @@ DataFusion CLI v44.0.0
 0 row(s) fetched.
 Elapsed 1.091 seconds.
 ```
+
+
+# License
+
+NoDB IP is protected via use of a permissive copy-left license.
+
+If you make it commercially available as no-IaaS please give us no credit.
