@@ -19,6 +19,7 @@ D show tables;
 │  name   │
 │ varchar │
 ├─────────┤
+│ nichts  │
 │ nothing │
 └─────────┘
 
