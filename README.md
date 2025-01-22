@@ -98,17 +98,19 @@ Elapsed 0.135 seconds.
 
 # NoDB Roadmap
 
-* NoDB will have full support of [Vortex](https://github.com/spiraldb/vortex) as a file format, for high-performance random-access reads and scans of nothing.
+* NoDB will soon leverage [Vortex](https://github.com/spiraldb/vortex) to achieve high-performance random-access reads and scans of nothing.
 
-* NoDB will experimentally support NoLLM, NoML, NoAI in the very near future.
+* NoDB will soon experimentally support NoLLM, NoML, and NoAI.
 
-* NoDB is current NoGovernance, but plans to support NoSecurity as well.
+* NoDB will natively integrate with NoLake.
+
+* NoDB is currently NoGovernance but plans to support NoSecurity, an increasingly-asked-for feature.
 
 * No DR is on the roadmap (though proprietary and only provided by our NoBYOC offering).
 
 
 # License
 
-NoDB IP is protected via use of a permissive copy-left license.
+NoDB intellectual property is protected via use of a permissive copy-left license.
 
-However, if you plan to make it commercially available as no-IaaS please give us no credit.
+However, if you plan to make NoDB commercially available as no-IaaS on no clouds whatsoever, please give us no credit.
